@@ -1,0 +1,47 @@
+Lease title: Test lease 
+Participants in leases:
+{
+    "FirstName": "Changpeng", "LastName": "Zhao",
+    "Address" : "Singapore",
+    "Emails": [  "cz@binance.com", ],
+    "PhoneNumbers": [ "(123)333-4444",],
+    "FaxNumbers": [  "44444",],
+},
+    
+{
+    "FirstName": "Sam", "LastName": "Bankman Fried",
+    "Emails": [  "SBF@FTX.com",],
+    "PhoneNumbers": [ "(123)333-4422", "(333)333-4444",],
+}, 
+{
+    "FirstName": "test1", "LastName": "ddd",
+    "Emails": [  ],
+    "PhoneNumbers": [ ],
+},
+    
+{
+    "Address:""4185 Blvd Cathrine, Montreal, QC",
+    "UnitType": "condo",
+    "ApplicanceAndFurnitures": [ "chairs", "fridge", "oven",],
+    "Accessories":[ "1 locker", "1 parking space",],
+},
+    
+Leasing Term:
+{
+"PeriodicTerm":{  "StartDate": "2022-10-22", "LeasingPeriod": "Weekly", }
+},
+   
+{
+    "Baserent": "1000",
+    "OtherFees": [ 
+          "Gas fee":  "100",
+    ], 
+    "TotalRent": "1100",
+    "ExactDate": "1", "PaymentPeriod": "Bi-weekly", 
+    "PaymentMethods": [ "cash", "cheque",],
+    "ServicesCovered": ["gas",  "heat",  "water", ],
+},
+    
+Deposits:
+
+"KeyDeposit":{ "DepositAmount": "10", "DepositPaymentDue": "2022-11-15",},

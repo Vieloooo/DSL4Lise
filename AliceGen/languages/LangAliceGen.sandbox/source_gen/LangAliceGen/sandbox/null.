@@ -1,0 +1,10 @@
+{
+    "Baserent": "1000",
+    "OtherFees": [ 
+          "Gas fee":  "100",      "parking fee":  "50",
+    ], 
+    "TotalRent": "1150",
+    "ExactDate": "4", "PaymentPeriod": "Bi-weekly", 
+    "PaymentMethods": [ "cash", "cheque", "wire-transfer",],
+    "ServicesCovered": ["hot water",  "heat",  "internet", ],
+},

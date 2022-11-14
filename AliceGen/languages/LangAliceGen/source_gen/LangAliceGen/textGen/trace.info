@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="128,0,134,0" name="LangAliceGen.textGen.TextGenAspectDescriptor$CONCEPTS" />
+      <unit at="16,0,135,0" name="LangAliceGen.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005608380">
+    <file name="Email_TextGen.java">
+      <node id="4186307322005608380" at="14,54,15,55" concept="5" />
+      <node id="4186307322005608388" at="15,55,16,93" concept="1" />
+      <node id="4186307322005608380" at="20,0,21,0" concept="7" trace="EmailNumber$_cHZ" />
+      <node id="4186307322005608380" at="13,0,18,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005608380" at="14,54,16,93">
+        <var name="tgs" id="4186307322005608380" />
+      </scope>
+      <scope id="4186307322005608380" at="13,0,18,0">
+        <var name="ctx" id="4186307322005608380" />
+      </scope>
+      <unit id="4186307322005608380" at="19,0,22,0" name="LangAliceGen.textGen.Email_TextGen$PROPS" />
+      <unit id="4186307322005608380" at="12,0,23,0" name="LangAliceGen.textGen.Email_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005608380" at="34,39,35,35" concept="6" />
+      <scope id="4186307322005608380" at="34,39,35,35" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005608404">
+    <file name="Fax_TextGen.java">
+      <node id="4186307322005608404" at="14,54,15,55" concept="5" />
+      <node id="4186307322005608412" at="15,55,16,91" concept="1" />
+      <node id="4186307322005608404" at="20,0,21,0" concept="7" trace="FaxNumber$rEdB" />
+      <node id="4186307322005608404" at="13,0,18,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005608404" at="14,54,16,91">
+        <var name="tgs" id="4186307322005608404" />
+      </scope>
+      <scope id="4186307322005608404" at="13,0,18,0">
+        <var name="ctx" id="4186307322005608404" />
+      </scope>
+      <unit id="4186307322005608404" at="19,0,22,0" name="LangAliceGen.textGen.Fax_TextGen$PROPS" />
+      <unit id="4186307322005608404" at="12,0,23,0" name="LangAliceGen.textGen.Fax_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005608404" at="36,37,37,33" concept="6" />
+      <scope id="4186307322005608404" at="36,37,37,33" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005608428">
+    <file name="Phone_TextGen.java">
+      <node id="4186307322005608428" at="14,54,15,55" concept="5" />
+      <node id="4186307322005608436" at="15,55,16,93" concept="1" />
+      <node id="4186307322005608428" at="20,0,21,0" concept="7" trace="PhoneNumber$mtYi" />
+      <node id="4186307322005608428" at="13,0,18,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005608428" at="14,54,16,93">
+        <var name="tgs" id="4186307322005608428" />
+      </scope>
+      <scope id="4186307322005608428" at="13,0,18,0">
+        <var name="ctx" id="4186307322005608428" />
+      </scope>
+      <unit id="4186307322005608428" at="19,0,22,0" name="LangAliceGen.textGen.Phone_TextGen$PROPS" />
+      <unit id="4186307322005608428" at="12,0,23,0" name="LangAliceGen.textGen.Phone_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005608428" at="56,39,57,35" concept="6" />
+      <scope id="4186307322005608428" at="56,39,57,35" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005608474">
+    <file name="Lessor_TextGen.java">
+      <node id="4186307322005608474" at="19,54,20,55" concept="5" />
+      <node id="4186307322005608479" at="20,55,21,20" concept="1" />
+      <node id="4186307322005608496" at="21,20,22,18" concept="1" />
+      <node id="4186307322005608498" at="22,18,23,17" concept="1" />
+      <node id="4186307322005608505" at="23,17,24,40" concept="1" />
+      <node id="4186307322005608511" at="24,40,25,91" concept="1" />
+      <node id="4186307322005608524" at="25,91,26,39" concept="1" />
+      <node id="4186307322005608530" at="26,39,27,90" concept="1" />
+      <node id="4341285193747890888" at="27,90,28,22" concept="1" />
+      <node id="4341285193747947404" at="28,22,29,18" concept="1" />
+      <node id="4186307322005608549" at="29,18,30,17" concept="1" />
+      <node id="4186307322005608543" at="30,17,31,36" concept="1" />
+      <node id="4186307322005608556" at="31,36,32,22" concept="1" />
+      <node id="4186307322005608562" at="32,22,33,89" concept="1" />
+      <node id="4341285193747891930" at="33,89,34,22" concept="1" />
+      <node id="4341285193747947836" at="34,22,35,18" concept="1" />
+      <node id="4186307322005608581" at="35,18,36,17" concept="1" />
+      <node id="4186307322005608575" at="36,17,37,38" concept="1" />
+      <node id="4341285193748050150" at="38,117,39,23" concept="1" />
+      <node id="4186307322005608598" at="39,23,40,27" concept="1" />
+      <node id="4341285193748050517" at="40,27,41,23" concept="1" />
+      <node id="4186307322005608611" at="42,59,43,25" concept="1" />
+      <node id="4341285193748024390" at="45,5,46,22" concept="1" />
+      <node id="4186307322005608628" at="46,22,47,18" concept="1" />
+      <node id="4186307322005608630" at="47,18,48,17" concept="1" />
+      <node id="4186307322005608624" at="48,17,49,43" concept="1" />
+      <node id="4341285193748106029" at="50,125,51,23" concept="1" />
+      <node id="4341285193748106030" at="51,23,52,29" concept="1" />
+      <node id="4341285193748106032" at="52,29,53,23" concept="1" />
+      <node id="4186307322005608660" at="54,61,55,25" concept="1" />
+      <node id="4341285193748105241" at="57,5,58,21" concept="1" />
+      <node id="4186307322005608677" at="58,21,59,18" concept="1" />
+      <node id="4186307322005608679" at="59,18,60,17" concept="1" />
+      <node id="4186307322005608673" at="60,17,61,41" concept="1" />
+      <node id="4186307322005608686" at="61,41,62,20" concept="1" />
+      <node id="4341285193748135480" at="63,123,64,23" concept="1" />
+      <node id="4341285193748135481" at="64,23,65,29" concept="1" />
+      <node id="4341285193748135483" at="65,29,66,23" concept="1" />
+      <node id="4186307322005608709" at="67,61,68,25" concept="1" />
+      <node id="4341285193748111438" at="70,5,71,20" concept="1" />
+      <node id="4341285193747888452" at="71,20,72,18" concept="1" />
+      <node id="4341285193747888141" at="72,18,73,20" concept="1" />
+      <node id="4186307322005608474" at="77,0,78,0" concept="7" trace="FirstName$sijI" />
+      <node id="4186307322005608474" at="78,0,79,0" concept="7" trace="LastName$VDVd" />
+      <node id="4186307322005608474" at="79,0,80,0" concept="7" trace="Address$Cb_L" />
+      <node id="4186307322005608474" at="83,0,84,0" concept="7" trace="emails$a7pK" />
+      <node id="4186307322005608474" at="84,0,85,0" concept="7" trace="phoneNumbers$PTpH" />
+      <node id="4186307322005608474" at="85,0,86,0" concept="7" trace="faxNumbers$VEDO" />
+      <node id="4186307322005608619" at="41,23,44,7" concept="3" />
+      <node id="4186307322005608668" at="53,23,56,7" concept="3" />
+      <node id="4186307322005608717" at="66,23,69,7" concept="3" />
+      <node id="4186307322005608621" at="37,38,45,5" concept="2" />
+      <node id="4186307322005608670" at="49,43,57,5" concept="2" />
+      <node id="4186307322005608719" at="62,20,70,5" concept="2" />
+      <node id="4186307322005608474" at="18,0,75,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005608618" at="42,59,43,25" />
+      <scope id="4186307322005608667" at="54,61,55,25" />
+      <scope id="4186307322005608716" at="67,61,68,25" />
+      <scope id="4186307322005608620" at="38,117,44,7" />
+      <scope id="4186307322005608669" at="50,125,56,7" />
+      <scope id="4186307322005608718" at="63,123,69,7" />
+      <scope id="4186307322005608621" at="37,38,45,5">
+        <var name="elem" id="4186307322005608596" />
+      </scope>
+      <scope id="4186307322005608670" at="49,43,57,5">
+        <var name="elem_2" id="4186307322005608645" />
+      </scope>
+      <scope id="4186307322005608719" at="62,20,70,5">
+        <var name="elem_3" id="4186307322005608694" />
+      </scope>
+      <scope id="4186307322005608474" at="19,54,73,20">
+        <var name="tgs" id="4186307322005608474" />
+      </scope>
+      <scope id="4186307322005608474" at="18,0,75,0">
+        <var name="ctx" id="4186307322005608474" />
+      </scope>
+      <unit id="4186307322005608474" at="76,0,81,0" name="LangAliceGen.textGen.Lessor_TextGen$PROPS" />
+      <unit id="4186307322005608474" at="82,0,87,0" name="LangAliceGen.textGen.Lessor_TextGen$LINKS" />
+      <unit id="4186307322005608474" at="17,0,88,0" name="LangAliceGen.textGen.Lessor_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005608474" at="46,40,47,36" concept="6" />
+      <node id="4186307322005608474" at="77,57,78,48" concept="5" />
+      <node id="4186307322005608474" at="78,48,79,51" concept="5" />
+      <node id="4186307322005608474" at="79,51,80,84" concept="1" />
+      <node id="4186307322005608474" at="80,84,81,17" concept="0" />
+      <node id="4186307322005608474" at="103,56,104,26" concept="6" />
+      <node id="4186307322005608725" at="115,61,116,17" concept="6" />
+      <node id="4186307322005608474" at="103,0,106,0" concept="8" trace="getFileName_Lessor#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4186307322005608474" at="115,0,118,0" concept="8" trace="getFileExtension_Lessor#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4186307322005608474" at="76,58,82,7" concept="3" />
+      <scope id="4186307322005608474" at="46,40,47,36" />
+      <scope id="4186307322005608474" at="103,56,104,26" />
+      <scope id="4186307322005608474" at="115,61,116,17" />
+      <scope id="4186307322005608474" at="103,0,106,0">
+        <var name="node" id="4186307322005608474" />
+      </scope>
+      <scope id="4186307322005608474" at="115,0,118,0">
+        <var name="node" id="4186307322005608474" />
+      </scope>
+      <scope id="4186307322005608474" at="77,57,81,17">
+        <var name="ext" id="4186307322005608474" />
+        <var name="fname" id="4186307322005608474" />
+      </scope>
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005608743">
+    <file name="Lessee_TextGen.java">
+      <node id="4186307322005608743" at="19,54,20,55" concept="5" />
+      <node id="4341285193748199311" at="20,55,21,20" concept="1" />
+      <node id="4341285193748199312" at="21,20,22,18" concept="1" />
+      <node id="4341285193748199313" at="22,18,23,17" concept="1" />
+      <node id="4341285193748199314" at="23,17,24,40" concept="1" />
+      <node id="4341285193748199315" at="24,40,25,91" concept="1" />
+      <node id="4341285193748199319" at="25,91,26,39" concept="1" />
+      <node id="4341285193748199320" at="26,39,27,90" concept="1" />
+      <node id="4341285193748199324" at="27,90,28,22" concept="1" />
+      <node id="4341285193748199334" at="28,22,29,18" concept="1" />
+      <node id="4341285193748199335" at="29,18,30,17" concept="1" />
+      <node id="4341285193748199336" at="30,17,31,38" concept="1" />
+      <node id="4341285193748202989" at="32,119,33,23" concept="1" />
+      <node id="4341285193748202990" at="33,23,34,29" concept="1" />
+      <node id="4341285193748202992" at="34,29,35,23" concept="1" />
+      <node id="4186307322005608848" at="36,61,37,25" concept="1" />
+      <node id="4341285193748206576" at="39,5,40,21" concept="1" />
+      <node id="4341285193748207499" at="40,21,41,18" concept="1" />
+      <node id="4341285193748207500" at="41,18,42,17" concept="1" />
+      <node id="4341285193748207501" at="42,17,43,43" concept="1" />
+      <node id="4341285193748209785" at="44,125,45,23" concept="1" />
+      <node id="4341285193748209786" at="45,23,46,29" concept="1" />
+      <node id="4341285193748209788" at="46,29,47,23" concept="1" />
+      <node id="4186307322005608897" at="48,61,49,25" concept="1" />
+      <node id="4341285193748210659" at="51,5,52,20" concept="1" />
+      <node id="4341285193748211093" at="52,20,53,18" concept="1" />
+      <node id="4341285193748198247" at="53,18,54,20" concept="1" />
+      <node id="4186307322005608743" at="58,0,59,0" concept="7" trace="FirstName$q5Gm" />
+      <node id="4186307322005608743" at="59,0,60,0" concept="7" trace="LastName$34HO" />
+      <node id="4186307322005608743" at="63,0,64,0" concept="7" trace="emails$fpUI" />
+      <node id="4186307322005608743" at="64,0,65,0" concept="7" trace="phoneNumbers$TM$a" />
+      <node id="4186307322005608856" at="35,23,38,7" concept="3" />
+      <node id="4186307322005608905" at="47,23,50,7" concept="3" />
+      <node id="4186307322005608858" at="31,38,39,5" concept="2" />
+      <node id="4186307322005608907" at="43,43,51,5" concept="2" />
+      <node id="4186307322005608743" at="18,0,56,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005608855" at="36,61,37,25" />
+      <scope id="4186307322005608904" at="48,61,49,25" />
+      <scope id="4186307322005608857" at="32,119,38,7" />
+      <scope id="4186307322005608906" at="44,125,50,7" />
+      <scope id="4186307322005608858" at="31,38,39,5">
+        <var name="elem_4" id="4186307322005608833" />
+      </scope>
+      <scope id="4186307322005608907" at="43,43,51,5">
+        <var name="elem_5" id="4186307322005608882" />
+      </scope>
+      <scope id="4186307322005608743" at="19,54,54,20">
+        <var name="tgs" id="4186307322005608743" />
+      </scope>
+      <scope id="4186307322005608743" at="18,0,56,0">
+        <var name="ctx" id="4186307322005608743" />
+      </scope>
+      <unit id="4186307322005608743" at="57,0,61,0" name="LangAliceGen.textGen.Lessee_TextGen$PROPS" />
+      <unit id="4186307322005608743" at="62,0,66,0" name="LangAliceGen.textGen.Lessee_TextGen$LINKS" />
+      <unit id="4186307322005608743" at="17,0,67,0" name="LangAliceGen.textGen.Lessee_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005608743" at="44,40,45,36" concept="6" />
+      <scope id="4186307322005608743" at="44,40,45,36" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005608929">
+    <file name="RentalUnit_TextGen.java">
+      <node id="4186307322005608929" at="19,54,20,55" concept="5" />
+      <node id="4186307322005608934" at="20,55,21,20" concept="1" />
+      <node id="4186307322005608951" at="21,20,22,18" concept="1" />
+      <node id="4186307322005608953" at="22,18,23,17" concept="1" />
+      <node id="4186307322005608947" at="23,17,24,36" concept="1" />
+      <node id="4186307322005608960" at="24,36,25,21" concept="1" />
+      <node id="4186307322005608966" at="25,21,26,89" concept="1" />
+      <node id="4341285193748240364" at="26,89,27,22" concept="1" />
+      <node id="4186307322005608983" at="27,22,28,18" concept="1" />
+      <node id="4186307322005608985" at="28,18,29,17" concept="1" />
+      <node id="4186307322005608979" at="29,17,30,37" concept="1" />
+      <node id="4186307322005608992" at="30,37,31,21" concept="1" />
+      <node id="4186307322005608999" at="31,21,32,90" concept="1" />
+      <node id="4341285193748242942" at="32,90,33,22" concept="1" />
+      <node id="4186307322005609017" at="33,22,34,18" concept="1" />
+      <node id="4186307322005609019" at="34,18,35,17" concept="1" />
+      <node id="4186307322005609013" at="35,17,36,54" concept="1" />
+      <node id="4341285193748248060" at="37,136,38,23" concept="1" />
+      <node id="4341285193748248061" at="38,23,39,29" concept="1" />
+      <node id="4341285193748248063" at="39,29,40,23" concept="1" />
+      <node id="4186307322005609049" at="41,61,42,25" concept="1" />
+      <node id="4341285193748247085" at="44,5,45,21" concept="1" />
+      <node id="4186307322005609066" at="45,21,46,18" concept="1" />
+      <node id="4186307322005609068" at="46,18,47,17" concept="1" />
+      <node id="4186307322005609062" at="47,17,48,39" concept="1" />
+      <node id="4186307322005609075" at="48,39,49,21" concept="1" />
+      <node id="4341285193748249680" at="50,124,51,23" concept="1" />
+      <node id="4341285193748249681" at="51,23,52,29" concept="1" />
+      <node id="4341285193748249683" at="52,29,53,23" concept="1" />
+      <node id="4186307322005609098" at="54,61,55,25" concept="1" />
+      <node id="4341285193748252406" at="57,5,58,20" concept="1" />
+      <node id="4341285193748252740" at="58,20,59,18" concept="1" />
+      <node id="4341285193748253030" at="59,18,60,21" concept="1" />
+      <node id="4186307322005608929" at="64,0,65,0" concept="7" trace="Address$E7f4" />
+      <node id="4186307322005608929" at="68,0,69,0" concept="7" trace="unitType$2aDQ" />
+      <node id="4186307322005608929" at="69,0,70,0" concept="7" trace="applicanceAndFurnitures$cU16" />
+      <node id="4186307322005608929" at="70,0,71,0" concept="7" trace="accessories$Pz5y" />
+      <node id="4186307322005609057" at="40,23,43,7" concept="3" />
+      <node id="4186307322005609106" at="53,23,56,7" concept="3" />
+      <node id="4186307322005609059" at="36,54,44,5" concept="2" />
+      <node id="4186307322005609108" at="49,21,57,5" concept="2" />
+      <node id="4186307322005608929" at="18,0,62,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005609056" at="41,61,42,25" />
+      <scope id="4186307322005609105" at="54,61,55,25" />
+      <scope id="4186307322005609058" at="37,136,43,7" />
+      <scope id="4186307322005609107" at="50,124,56,7" />
+      <scope id="4186307322005609059" at="36,54,44,5">
+        <var name="elem_6" id="4186307322005609034" />
+      </scope>
+      <scope id="4186307322005609108" at="49,21,57,5">
+        <var name="elem_7" id="4186307322005609083" />
+      </scope>
+      <scope id="4186307322005608929" at="19,54,60,21">
+        <var name="tgs" id="4186307322005608929" />
+      </scope>
+      <scope id="4186307322005608929" at="18,0,62,0">
+        <var name="ctx" id="4186307322005608929" />
+      </scope>
+      <unit id="4186307322005608929" at="63,0,66,0" name="LangAliceGen.textGen.RentalUnit_TextGen$PROPS" />
+      <unit id="4186307322005608929" at="67,0,72,0" name="LangAliceGen.textGen.RentalUnit_TextGen$LINKS" />
+      <unit id="4186307322005608929" at="17,0,73,0" name="LangAliceGen.textGen.RentalUnit_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005608929" at="62,44,63,40" concept="6" />
+      <node id="4186307322005608929" at="83,61,84,52" concept="5" />
+      <node id="4186307322005608929" at="84,52,85,55" concept="5" />
+      <node id="4186307322005608929" at="85,55,86,84" concept="1" />
+      <node id="4186307322005608929" at="86,84,87,17" concept="0" />
+      <node id="4186307322005608929" at="106,60,107,26" concept="6" />
+      <node id="4186307322005609114" at="118,65,119,14" concept="6" />
+      <node id="4186307322005608929" at="106,0,109,0" concept="8" trace="getFileName_RentalUnit#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4186307322005608929" at="118,0,121,0" concept="8" trace="getFileExtension_RentalUnit#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4186307322005608929" at="82,7,88,7" concept="3" />
+      <scope id="4186307322005608929" at="62,44,63,40" />
+      <scope id="4186307322005608929" at="106,60,107,26" />
+      <scope id="4186307322005608929" at="118,65,119,14" />
+      <scope id="4186307322005608929" at="106,0,109,0">
+        <var name="node" id="4186307322005608929" />
+      </scope>
+      <scope id="4186307322005608929" at="118,0,121,0">
+        <var name="node" id="4186307322005608929" />
+      </scope>
+      <scope id="4186307322005608929" at="83,61,87,17">
+        <var name="ext" id="4186307322005608929" />
+        <var name="fname" id="4186307322005608929" />
+      </scope>
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005609118">
+    <file name="ApplicanceAndFruniture_TextGen.java">
+      <node id="4186307322005609118" at="14,54,15,55" concept="5" />
+      <node id="4186307322005609126" at="15,55,16,96" concept="1" />
+      <node id="4186307322005609118" at="20,0,21,0" concept="7" trace="ApplicanceName$ElNw" />
+      <node id="4186307322005609118" at="13,0,18,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005609118" at="14,54,16,96">
+        <var name="tgs" id="4186307322005609118" />
+      </scope>
+      <scope id="4186307322005609118" at="13,0,18,0">
+        <var name="ctx" id="4186307322005609118" />
+      </scope>
+      <unit id="4186307322005609118" at="19,0,22,0" name="LangAliceGen.textGen.ApplicanceAndFruniture_TextGen$PROPS" />
+      <unit id="4186307322005609118" at="12,0,23,0" name="LangAliceGen.textGen.ApplicanceAndFruniture_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005609118" at="28,56,29,52" concept="6" />
+      <scope id="4186307322005609118" at="28,56,29,52" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005609142">
+    <file name="Accessory_TextGen.java">
+      <node id="4186307322005609142" at="14,54,15,55" concept="5" />
+      <node id="4186307322005609150" at="15,55,16,95" concept="1" />
+      <node id="4186307322005609142" at="20,0,21,0" concept="7" trace="AccessoryName$L3SW" />
+      <node id="4186307322005609142" at="13,0,18,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005609142" at="14,54,16,95">
+        <var name="tgs" id="4186307322005609142" />
+      </scope>
+      <scope id="4186307322005609142" at="13,0,18,0">
+        <var name="ctx" id="4186307322005609142" />
+      </scope>
+      <unit id="4186307322005609142" at="19,0,22,0" name="LangAliceGen.textGen.Accessory_TextGen$PROPS" />
+      <unit id="4186307322005609142" at="12,0,23,0" name="LangAliceGen.textGen.Accessory_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005609142" at="26,43,27,39" concept="6" />
+      <scope id="4186307322005609142" at="26,43,27,39" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005609166">
+    <file name="RentalUnitType_TextGen.java">
+      <node id="4186307322005609166" at="14,54,15,55" concept="5" />
+      <node id="4186307322005609174" at="15,55,16,86" concept="1" />
+      <node id="4186307322005609166" at="20,0,21,0" concept="7" trace="type$j4AM" />
+      <node id="4186307322005609166" at="13,0,18,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005609166" at="14,54,16,86">
+        <var name="tgs" id="4186307322005609166" />
+      </scope>
+      <scope id="4186307322005609166" at="13,0,18,0">
+        <var name="ctx" id="4186307322005609166" />
+      </scope>
+      <unit id="4186307322005609166" at="19,0,22,0" name="LangAliceGen.textGen.RentalUnitType_TextGen$PROPS" />
+      <unit id="4186307322005609166" at="12,0,23,0" name="LangAliceGen.textGen.RentalUnitType_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005609166" at="64,48,65,44" concept="6" />
+      <scope id="4186307322005609166" at="64,48,65,44" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005609194">
+    <file name="FixedTerm_TextGen.java">
+      <node id="4186307322005609194" at="14,54,15,55" concept="5" />
+      <node id="4341285193748310637" at="15,55,16,20" concept="1" />
+      <node id="4341285193748311908" at="16,20,17,18" concept="1" />
+      <node id="4186307322005609199" at="17,18,18,35" concept="1" />
+      <node id="4186307322005609212" at="18,35,19,20" concept="1" />
+      <node id="4186307322005609215" at="19,20,20,33" concept="1" />
+      <node id="4186307322005609228" at="20,33,21,22" concept="1" />
+      <node id="4186307322005609234" at="21,22,22,91" concept="1" />
+      <node id="4186307322005609247" at="22,91,23,23" concept="1" />
+      <node id="4186307322005609250" at="23,23,24,31" concept="1" />
+      <node id="4186307322005609263" at="24,31,25,22" concept="1" />
+      <node id="4186307322005609269" at="25,22,26,89" concept="1" />
+      <node id="4341285193748315058" at="26,89,27,23" concept="1" />
+      <node id="4341285193748311660" at="27,23,28,18" concept="1" />
+      <node id="4341285193748311323" at="28,18,29,20" concept="1" />
+      <node id="4186307322005609194" at="33,0,34,0" concept="7" trace="StartDate$dofx" />
+      <node id="4186307322005609194" at="34,0,35,0" concept="7" trace="EndDate$smpK" />
+      <node id="4186307322005609194" at="13,0,31,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005609194" at="14,54,29,20">
+        <var name="tgs" id="4186307322005609194" />
+      </scope>
+      <scope id="4186307322005609194" at="13,0,31,0">
+        <var name="ctx" id="4186307322005609194" />
+      </scope>
+      <unit id="4186307322005609194" at="32,0,36,0" name="LangAliceGen.textGen.FixedTerm_TextGen$PROPS" />
+      <unit id="4186307322005609194" at="12,0,37,0" name="LangAliceGen.textGen.FixedTerm_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005609194" at="38,43,39,39" concept="6" />
+      <scope id="4186307322005609194" at="38,43,39,39" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005609289">
+    <file name="PeriodicTerm_TextGen.java">
+      <node id="4186307322005609289" at="15,54,16,55" concept="5" />
+      <node id="4341285193748364552" at="16,55,17,20" concept="1" />
+      <node id="4341285193748364553" at="17,20,18,18" concept="1" />
+      <node id="4341285193748364554" at="18,18,19,38" concept="1" />
+      <node id="4341285193748364555" at="19,38,20,20" concept="1" />
+      <node id="4341285193748364556" at="20,20,21,33" concept="1" />
+      <node id="4341285193748364557" at="21,33,22,22" concept="1" />
+      <node id="4341285193748364558" at="22,22,23,91" concept="1" />
+      <node id="4341285193748364562" at="23,91,24,23" concept="1" />
+      <node id="4341285193748364563" at="24,23,25,37" concept="1" />
+      <node id="4341285193748364564" at="25,37,26,22" concept="1" />
+      <node id="4341285193748364565" at="26,22,27,132" concept="1" />
+      <node id="4341285193748364569" at="27,132,28,23" concept="1" />
+      <node id="4341285193748364571" at="28,23,29,18" concept="1" />
+      <node id="4341285193748364572" at="29,18,30,20" concept="1" />
+      <node id="4186307322005609289" at="34,0,35,0" concept="7" trace="StartDate$dofx" />
+      <node id="4186307322005609289" at="35,0,36,0" concept="7" trace="LeasingPeriod$SEFQ" />
+      <node id="4186307322005609289" at="14,0,32,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005609289" at="15,54,30,20">
+        <var name="tgs" id="4186307322005609289" />
+      </scope>
+      <scope id="4186307322005609289" at="14,0,32,0">
+        <var name="ctx" id="4186307322005609289" />
+      </scope>
+      <unit id="4186307322005609289" at="33,0,37,0" name="LangAliceGen.textGen.PeriodicTerm_TextGen$PROPS" />
+      <unit id="4186307322005609289" at="13,0,38,0" name="LangAliceGen.textGen.PeriodicTerm_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005609289" at="52,46,53,42" concept="6" />
+      <scope id="4186307322005609289" at="52,46,53,42" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005609413">
+    <file name="Rent_TextGen.java">
+      <node id="4186307322005609413" at="20,54,21,55" concept="5" />
+      <node id="4186307322005609418" at="21,55,22,20" concept="1" />
+      <node id="4186307322005609435" at="22,20,23,18" concept="1" />
+      <node id="4186307322005609437" at="23,18,24,17" concept="1" />
+      <node id="4186307322005609431" at="24,17,25,36" concept="1" />
+      <node id="4186307322005609444" at="25,36,26,22" concept="1" />
+      <node id="4186307322005609451" at="26,22,27,90" concept="1" />
+      <node id="4341285193748420720" at="27,90,28,22" concept="1" />
+      <node id="4186307322005609469" at="28,22,29,18" concept="1" />
+      <node id="4186307322005609471" at="29,18,30,17" concept="1" />
+      <node id="4186307322005609465" at="30,17,31,40" concept="1" />
+      <node id="4186307322005609482" at="31,40,32,18" concept="1" />
+      <node id="4186307322005609484" at="32,18,33,17" concept="1" />
+      <node id="4186307322005609478" at="33,17,34,23" concept="1" />
+      <node id="4186307322005609491" at="34,23,35,20" concept="1" />
+      <node id="4186307322005609501" at="36,122,37,29" concept="1" />
+      <node id="4186307322005609514" at="38,61,39,25" concept="1" />
+      <node id="4341285193748634889" at="41,5,42,18" concept="1" />
+      <node id="4341285193748428580" at="42,18,43,26" concept="1" />
+      <node id="4186307322005609531" at="43,26,44,18" concept="1" />
+      <node id="4186307322005609533" at="44,18,45,17" concept="1" />
+      <node id="4186307322005609527" at="45,17,46,37" concept="1" />
+      <node id="4186307322005609540" at="46,37,47,22" concept="1" />
+      <node id="4186307322005609547" at="47,22,48,110" concept="1" />
+      <node id="4341285193748503530" at="48,110,49,22" concept="1" />
+      <node id="4186307322005609564" at="49,22,50,18" concept="1" />
+      <node id="4186307322005609566" at="50,18,51,17" concept="1" />
+      <node id="4186307322005609573" at="51,17,52,37" concept="1" />
+      <node id="4186307322005609586" at="52,37,53,22" concept="1" />
+      <node id="4186307322005609593" at="53,22,54,110" concept="1" />
+      <node id="4186307322005609606" at="54,110,55,23" concept="1" />
+      <node id="4186307322005609622" at="55,23,56,40" concept="1" />
+      <node id="4186307322005609630" at="56,40,57,131" concept="1" />
+      <node id="4186307322005609643" at="57,131,58,23" concept="1" />
+      <node id="4186307322005609663" at="58,23,59,18" concept="1" />
+      <node id="4341285193748513089" at="59,18,60,45" concept="1" />
+      <node id="4186307322005609682" at="61,127,62,29" concept="1" />
+      <node id="4186307322005609695" at="63,61,64,25" concept="1" />
+      <node id="4341285193748514409" at="66,5,67,21" concept="1" />
+      <node id="4186307322005609712" at="67,21,68,18" concept="1" />
+      <node id="4186307322005609714" at="68,18,69,17" concept="1" />
+      <node id="4186307322005609708" at="69,17,70,45" concept="1" />
+      <node id="4186307322005609731" at="71,128,72,30" concept="1" />
+      <node id="4186307322005609744" at="73,62,74,25" concept="1" />
+      <node id="4341285193748521379" at="76,5,77,20" concept="1" />
+      <node id="4341285193748521728" at="77,20,78,18" concept="1" />
+      <node id="4341285193748523544" at="78,18,79,21" concept="1" />
+      <node id="4186307322005609413" at="83,0,84,0" concept="7" trace="baseRent$G24M" />
+      <node id="4186307322005609413" at="84,0,85,0" concept="7" trace="otherFees$729G" />
+      <node id="4186307322005609413" at="85,0,86,0" concept="7" trace="paymentMethods$HzDc" />
+      <node id="4186307322005609413" at="86,0,87,0" concept="7" trace="serviceCovered$KnzJ" />
+      <node id="4186307322005609413" at="90,0,91,0" concept="7" trace="TotalRent$5Qal" />
+      <node id="4186307322005609413" at="91,0,92,0" concept="7" trace="ExactDate$Lh9y" />
+      <node id="4186307322005609413" at="92,0,93,0" concept="7" trace="PaymentCycle$J58R" />
+      <node id="4186307322005609522" at="37,29,40,7" concept="3" />
+      <node id="4186307322005609703" at="62,29,65,7" concept="3" />
+      <node id="4186307322005609752" at="72,30,75,7" concept="3" />
+      <node id="4186307322005609524" at="35,20,41,5" concept="2" />
+      <node id="4186307322005609705" at="60,45,66,5" concept="2" />
+      <node id="4186307322005609754" at="70,45,76,5" concept="2" />
+      <node id="4186307322005609413" at="19,0,81,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005609521" at="38,61,39,25" />
+      <scope id="4186307322005609702" at="63,61,64,25" />
+      <scope id="4186307322005609751" at="73,62,74,25" />
+      <scope id="4186307322005609523" at="36,122,40,7" />
+      <scope id="4186307322005609704" at="61,127,65,7" />
+      <scope id="4186307322005609753" at="71,128,75,7" />
+      <scope id="4186307322005609524" at="35,20,41,5">
+        <var name="elem_8" id="4186307322005609499" />
+      </scope>
+      <scope id="4186307322005609705" at="60,45,66,5">
+        <var name="elem_9" id="4186307322005609680" />
+      </scope>
+      <scope id="4186307322005609754" at="70,45,76,5">
+        <var name="elem_10" id="4186307322005609729" />
+      </scope>
+      <scope id="4186307322005609413" at="20,54,79,21">
+        <var name="tgs" id="4186307322005609413" />
+      </scope>
+      <scope id="4186307322005609413" at="19,0,81,0">
+        <var name="ctx" id="4186307322005609413" />
+      </scope>
+      <unit id="4186307322005609413" at="89,0,94,0" name="LangAliceGen.textGen.Rent_TextGen$PROPS" />
+      <unit id="4186307322005609413" at="82,0,88,0" name="LangAliceGen.textGen.Rent_TextGen$LINKS" />
+      <unit id="4186307322005609413" at="18,0,95,0" name="LangAliceGen.textGen.Rent_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005609413" at="58,38,59,34" concept="6" />
+      <node id="4186307322005609413" at="89,55,90,46" concept="5" />
+      <node id="4186307322005609413" at="90,46,91,49" concept="5" />
+      <node id="4186307322005609413" at="91,49,92,84" concept="1" />
+      <node id="4186307322005609413" at="92,84,93,17" concept="0" />
+      <node id="4186307322005609413" at="109,54,110,26" concept="6" />
+      <node id="4186307322005609760" at="121,59,122,14" concept="6" />
+      <node id="4186307322005609413" at="109,0,112,0" concept="8" trace="getFileName_Rent#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4186307322005609413" at="121,0,124,0" concept="8" trace="getFileExtension_Rent#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4186307322005609413" at="88,7,94,7" concept="3" />
+      <scope id="4186307322005609413" at="58,38,59,34" />
+      <scope id="4186307322005609413" at="109,54,110,26" />
+      <scope id="4186307322005609413" at="121,59,122,14" />
+      <scope id="4186307322005609413" at="109,0,112,0">
+        <var name="node" id="4186307322005609413" />
+      </scope>
+      <scope id="4186307322005609413" at="121,0,124,0">
+        <var name="node" id="4186307322005609413" />
+      </scope>
+      <scope id="4186307322005609413" at="89,55,93,17">
+        <var name="ext" id="4186307322005609413" />
+        <var name="fname" id="4186307322005609413" />
+      </scope>
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005609764">
+    <file name="BaseRent_TextGen.java">
+      <node id="4186307322005609764" at="14,54,15,55" concept="5" />
+      <node id="4186307322005609773" at="15,55,16,107" concept="1" />
+      <node id="4186307322005609764" at="20,0,21,0" concept="7" trace="Amount$IBsn" />
+      <node id="4186307322005609764" at="13,0,18,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005609764" at="14,54,16,107">
+        <var name="tgs" id="4186307322005609764" />
+      </scope>
+      <scope id="4186307322005609764" at="13,0,18,0">
+        <var name="ctx" id="4186307322005609764" />
+      </scope>
+      <unit id="4186307322005609764" at="19,0,22,0" name="LangAliceGen.textGen.BaseRent_TextGen$PROPS" />
+      <unit id="4186307322005609764" at="12,0,23,0" name="LangAliceGen.textGen.BaseRent_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005609764" at="30,42,31,38" concept="6" />
+      <scope id="4186307322005609764" at="30,42,31,38" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005609790">
+    <file name="PaymentMethod_TextGen.java">
+      <node id="4186307322005609790" at="14,54,15,55" concept="5" />
+      <node id="4341285193748515200" at="15,55,16,21" concept="1" />
+      <node id="4186307322005609798" at="16,21,17,92" concept="1" />
+      <node id="4186307322005609811" at="17,92,18,21" concept="1" />
+      <node id="4186307322005609790" at="22,0,23,0" concept="7" trace="MethodName$Q2sU" />
+      <node id="4186307322005609790" at="13,0,20,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005609790" at="14,54,18,21">
+        <var name="tgs" id="4186307322005609790" />
+      </scope>
+      <scope id="4186307322005609790" at="13,0,20,0">
+        <var name="ctx" id="4186307322005609790" />
+      </scope>
+      <unit id="4186307322005609790" at="21,0,24,0" name="LangAliceGen.textGen.PaymentMethod_TextGen$PROPS" />
+      <unit id="4186307322005609790" at="12,0,25,0" name="LangAliceGen.textGen.PaymentMethod_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005609790" at="50,47,51,43" concept="6" />
+      <scope id="4186307322005609790" at="50,47,51,43" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005609831">
+    <file name="ServiceCovered_TextGen.java">
+      <node id="4186307322005609831" at="14,54,15,55" concept="5" />
+      <node id="4341285193748517666" at="15,55,16,21" concept="1" />
+      <node id="4186307322005609839" at="16,21,17,93" concept="1" />
+      <node id="4186307322005609852" at="17,93,18,22" concept="1" />
+      <node id="4186307322005609831" at="22,0,23,0" concept="7" trace="serviceName$Ty5Q" />
+      <node id="4186307322005609831" at="13,0,20,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005609831" at="14,54,18,22">
+        <var name="tgs" id="4186307322005609831" />
+      </scope>
+      <scope id="4186307322005609831" at="13,0,20,0">
+        <var name="ctx" id="4186307322005609831" />
+      </scope>
+      <unit id="4186307322005609831" at="21,0,24,0" name="LangAliceGen.textGen.ServiceCovered_TextGen$PROPS" />
+      <unit id="4186307322005609831" at="12,0,25,0" name="LangAliceGen.textGen.ServiceCovered_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005609831" at="68,48,69,44" concept="6" />
+      <scope id="4186307322005609831" at="68,48,69,44" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005609874">
+    <file name="OtherFee_TextGen.java">
+      <node id="4186307322005609874" at="14,54,15,55" concept="5" />
+      <node id="4186307322005609879" at="15,55,16,24" concept="1" />
+      <node id="4186307322005609892" at="16,24,17,34" concept="1" />
+      <node id="4186307322005609898" at="17,34,18,89" concept="1" />
+      <node id="4186307322005609911" at="18,89,19,34" concept="1" />
+      <node id="4186307322005609927" at="19,34,20,22" concept="1" />
+      <node id="4186307322005609934" at="20,22,21,107" concept="1" />
+      <node id="4341285193748424588" at="21,107,22,22" concept="1" />
+      <node id="4186307322005609874" at="26,0,27,0" concept="7" trace="FeeName$tFwc" />
+      <node id="4186307322005609874" at="27,0,28,0" concept="7" trace="Amount$X37F" />
+      <node id="4186307322005609874" at="13,0,24,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005609874" at="14,54,22,22">
+        <var name="tgs" id="4186307322005609874" />
+      </scope>
+      <scope id="4186307322005609874" at="13,0,24,0">
+        <var name="ctx" id="4186307322005609874" />
+      </scope>
+      <unit id="4186307322005609874" at="25,0,29,0" name="LangAliceGen.textGen.OtherFee_TextGen$PROPS" />
+      <unit id="4186307322005609874" at="12,0,30,0" name="LangAliceGen.textGen.OtherFee_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005609874" at="48,42,49,38" concept="6" />
+      <scope id="4186307322005609874" at="48,42,49,38" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005609956">
+    <file name="KeyDeposit_TextGen.java">
+      <node id="4186307322005609956" at="16,54,17,55" concept="5" />
+      <node id="4341285193748576388" at="17,55,18,18" concept="1" />
+      <node id="4186307322005609961" at="18,18,19,34" concept="1" />
+      <node id="4341285193748580626" at="19,34,20,21" concept="1" />
+      <node id="4186307322005609974" at="20,21,21,37" concept="1" />
+      <node id="4186307322005609987" at="21,37,22,22" concept="1" />
+      <node id="4186307322005609994" at="22,22,23,107" concept="1" />
+      <node id="4341285193748582964" at="23,107,24,23" concept="1" />
+      <node id="4186307322005610007" at="24,23,25,41" concept="1" />
+      <node id="4186307322005610020" at="25,41,26,22" concept="1" />
+      <node id="4186307322005610027" at="26,22,27,89" concept="1" />
+      <node id="4341285193748584874" at="27,89,28,22" concept="1" />
+      <node id="4341285193748578227" at="28,22,29,18" concept="1" />
+      <node id="4186307322005609956" at="33,0,34,0" concept="7" trace="Amount$o$Lo" />
+      <node id="4186307322005609956" at="37,0,38,0" concept="7" trace="dueDate$jYxm" />
+      <node id="4186307322005609956" at="15,0,31,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005609956" at="16,54,29,18">
+        <var name="tgs" id="4186307322005609956" />
+      </scope>
+      <scope id="4186307322005609956" at="15,0,31,0">
+        <var name="ctx" id="4186307322005609956" />
+      </scope>
+      <unit id="4186307322005609956" at="32,0,35,0" name="LangAliceGen.textGen.KeyDeposit_TextGen$PROPS" />
+      <unit id="4186307322005609956" at="36,0,39,0" name="LangAliceGen.textGen.KeyDeposit_TextGen$LINKS" />
+      <unit id="4186307322005609956" at="14,0,40,0" name="LangAliceGen.textGen.KeyDeposit_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005609956" at="40,44,41,40" concept="6" />
+      <scope id="4186307322005609956" at="40,44,41,40" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005610044">
+    <file name="DepositDueDate_TextGen.java">
+      <node id="4186307322005610044" at="14,54,15,55" concept="5" />
+      <node id="4186307322005610052" at="15,55,16,89" concept="1" />
+      <node id="4186307322005610044" at="20,0,21,0" concept="7" trace="DueDate$SpCt" />
+      <node id="4186307322005610044" at="13,0,18,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005610044" at="14,54,16,89">
+        <var name="tgs" id="4186307322005610044" />
+      </scope>
+      <scope id="4186307322005610044" at="13,0,18,0">
+        <var name="ctx" id="4186307322005610044" />
+      </scope>
+      <unit id="4186307322005610044" at="19,0,22,0" name="LangAliceGen.textGen.DepositDueDate_TextGen$PROPS" />
+      <unit id="4186307322005610044" at="12,0,23,0" name="LangAliceGen.textGen.DepositDueDate_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005610044" at="32,48,33,44" concept="6" />
+      <scope id="4186307322005610044" at="32,48,33,44" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005610074">
+    <file name="SecurityDeposit_TextGen.java">
+      <node id="4186307322005610074" at="16,54,17,55" concept="5" />
+      <node id="4341285193748690963" at="17,55,18,18" concept="1" />
+      <node id="4341285193748690964" at="18,18,19,39" concept="1" />
+      <node id="4341285193748690965" at="19,39,20,21" concept="1" />
+      <node id="4341285193748690966" at="20,21,21,37" concept="1" />
+      <node id="4341285193748690967" at="21,37,22,22" concept="1" />
+      <node id="4341285193748690968" at="22,22,23,107" concept="1" />
+      <node id="4341285193748690973" at="23,107,24,23" concept="1" />
+      <node id="4341285193748690974" at="24,23,25,41" concept="1" />
+      <node id="4341285193748690975" at="25,41,26,22" concept="1" />
+      <node id="4341285193748690976" at="26,22,27,89" concept="1" />
+      <node id="4341285193748690980" at="27,89,28,22" concept="1" />
+      <node id="4341285193748690983" at="28,22,29,18" concept="1" />
+      <node id="4186307322005610074" at="33,0,34,0" concept="7" trace="Amount$o$Lo" />
+      <node id="4186307322005610074" at="37,0,38,0" concept="7" trace="dueDate$jYxm" />
+      <node id="4186307322005610074" at="15,0,31,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005610074" at="16,54,29,18">
+        <var name="tgs" id="4186307322005610074" />
+      </scope>
+      <scope id="4186307322005610074" at="15,0,31,0">
+        <var name="ctx" id="4186307322005610074" />
+      </scope>
+      <unit id="4186307322005610074" at="32,0,35,0" name="LangAliceGen.textGen.SecurityDeposit_TextGen$PROPS" />
+      <unit id="4186307322005610074" at="36,0,39,0" name="LangAliceGen.textGen.SecurityDeposit_TextGen$LINKS" />
+      <unit id="4186307322005610074" at="14,0,40,0" name="LangAliceGen.textGen.SecurityDeposit_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005610074" at="66,49,67,45" concept="6" />
+      <scope id="4186307322005610074" at="66,49,67,45" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005610168">
+    <file name="PetDamageDeposit_TextGen.java">
+      <node id="4186307322005610168" at="16,54,17,55" concept="5" />
+      <node id="4341285193748689978" at="17,55,18,18" concept="1" />
+      <node id="4341285193748689979" at="18,18,19,34" concept="1" />
+      <node id="4341285193748689980" at="19,34,20,21" concept="1" />
+      <node id="4341285193748689981" at="20,21,21,37" concept="1" />
+      <node id="4341285193748689982" at="21,37,22,22" concept="1" />
+      <node id="4341285193748689983" at="22,22,23,107" concept="1" />
+      <node id="4341285193748689988" at="23,107,24,23" concept="1" />
+      <node id="4341285193748689989" at="24,23,25,41" concept="1" />
+      <node id="4341285193748689990" at="25,41,26,22" concept="1" />
+      <node id="4341285193748689991" at="26,22,27,89" concept="1" />
+      <node id="4341285193748689995" at="27,89,28,22" concept="1" />
+      <node id="4341285193748689998" at="28,22,29,18" concept="1" />
+      <node id="4186307322005610168" at="33,0,34,0" concept="7" trace="Amount$o$Lo" />
+      <node id="4186307322005610168" at="37,0,38,0" concept="7" trace="dueDate$jYxm" />
+      <node id="4186307322005610168" at="15,0,31,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005610168" at="16,54,29,18">
+        <var name="tgs" id="4186307322005610168" />
+      </scope>
+      <scope id="4186307322005610168" at="15,0,31,0">
+        <var name="ctx" id="4186307322005610168" />
+      </scope>
+      <unit id="4186307322005610168" at="32,0,35,0" name="LangAliceGen.textGen.PetDamageDeposit_TextGen$PROPS" />
+      <unit id="4186307322005610168" at="36,0,39,0" name="LangAliceGen.textGen.PetDamageDeposit_TextGen$LINKS" />
+      <unit id="4186307322005610168" at="14,0,40,0" name="LangAliceGen.textGen.PetDamageDeposit_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005610168" at="54,50,55,46" concept="6" />
+      <scope id="4186307322005610168" at="54,50,55,46" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005610262">
+    <file name="RentDeposit_TextGen.java">
+      <node id="4186307322005610262" at="16,54,17,55" concept="5" />
+      <node id="4341285193748692139" at="17,55,18,18" concept="1" />
+      <node id="4341285193748692140" at="18,18,19,35" concept="1" />
+      <node id="4341285193748692141" at="19,35,20,21" concept="1" />
+      <node id="4341285193748692142" at="20,21,21,37" concept="1" />
+      <node id="4341285193748692143" at="21,37,22,22" concept="1" />
+      <node id="4341285193748692144" at="22,22,23,107" concept="1" />
+      <node id="4341285193748692149" at="23,107,24,23" concept="1" />
+      <node id="4341285193748692150" at="24,23,25,41" concept="1" />
+      <node id="4341285193748692151" at="25,41,26,22" concept="1" />
+      <node id="4341285193748692152" at="26,22,27,89" concept="1" />
+      <node id="4341285193748692156" at="27,89,28,22" concept="1" />
+      <node id="4341285193748692159" at="28,22,29,18" concept="1" />
+      <node id="4186307322005610262" at="33,0,34,0" concept="7" trace="Amount$o$Lo" />
+      <node id="4186307322005610262" at="37,0,38,0" concept="7" trace="dueDate$jYxm" />
+      <node id="4186307322005610262" at="15,0,31,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005610262" at="16,54,29,18">
+        <var name="tgs" id="4186307322005610262" />
+      </scope>
+      <scope id="4186307322005610262" at="15,0,31,0">
+        <var name="ctx" id="4186307322005610262" />
+      </scope>
+      <unit id="4186307322005610262" at="32,0,35,0" name="LangAliceGen.textGen.RentDeposit_TextGen$PROPS" />
+      <unit id="4186307322005610262" at="36,0,39,0" name="LangAliceGen.textGen.RentDeposit_TextGen$LINKS" />
+      <unit id="4186307322005610262" at="14,0,40,0" name="LangAliceGen.textGen.RentDeposit_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005610262" at="60,45,61,41" concept="6" />
+      <scope id="4186307322005610262" at="60,45,61,41" />
+    </file>
+  </root>
+  <root nodeRef="r:1d0aadeb-a4f8-43c1-a4ca-05d6bdf34d70(LangAliceGen.textGen)/4186307322005610385">
+    <file name="LeaseForm_TextGen.java">
+      <node id="4186307322005610385" at="19,54,20,55" concept="5" />
+      <node id="4341285193748696075" at="20,55,21,20" concept="1" />
+      <node id="4341285193748696328" at="21,20,22,18" concept="1" />
+      <node id="4186307322005610390" at="22,18,23,34" concept="1" />
+      <node id="4186307322005610403" at="23,34,24,22" concept="1" />
+      <node id="4186307322005610409" at="24,22,25,86" concept="1" />
+      <node id="4341285193748697169" at="25,86,26,22" concept="1" />
+      <node id="4186307322005610426" at="26,22,27,18" concept="1" />
+      <node id="4341285193748703069" at="27,18,28,31" concept="1" />
+      <node id="4341285193748705912" at="28,31,29,20" concept="1" />
+      <node id="4341285193748706248" at="29,20,30,18" concept="1" />
+      <node id="4186307322005610447" at="31,121,32,20" concept="1" />
+      <node id="4186307322005610449" at="32,20,33,19" concept="1" />
+      <node id="4186307322005610442" at="33,19,34,30" concept="1" />
+      <node id="4186307322005610455" at="35,62,36,25" concept="1" />
+      <node id="4341285193748706909" at="38,5,39,18" concept="1" />
+      <node id="4341285193748706670" at="39,18,40,21" concept="1" />
+      <node id="4186307322005610472" at="40,21,41,18" concept="1" />
+      <node id="4341285193748754470" at="41,18,42,32" concept="1" />
+      <node id="4341285193748755500" at="42,32,43,20" concept="1" />
+      <node id="4341285193748755715" at="43,20,44,18" concept="1" />
+      <node id="4186307322005610493" at="45,121,46,20" concept="1" />
+      <node id="4186307322005610495" at="46,20,47,19" concept="1" />
+      <node id="4186307322005610488" at="47,19,48,30" concept="1" />
+      <node id="4186307322005610501" at="49,62,50,25" concept="1" />
+      <node id="4341285193748758820" at="52,5,53,18" concept="1" />
+      <node id="4341285193748759134" at="53,18,54,21" concept="1" />
+      <node id="4186307322005610518" at="54,21,55,18" concept="1" />
+      <node id="4186307322005610520" at="55,18,56,17" concept="1" />
+      <node id="4186307322005610514" at="56,17,57,35" concept="1" />
+      <node id="4186307322005610536" at="57,35,58,18" concept="1" />
+      <node id="4186307322005610538" at="58,18,59,17" concept="1" />
+      <node id="4186307322005610531" at="59,17,60,92" concept="1" />
+      <node id="4186307322005610549" at="60,92,61,18" concept="1" />
+      <node id="4186307322005610551" at="61,18,62,17" concept="1" />
+      <node id="4186307322005610545" at="62,17,63,23" concept="1" />
+      <node id="4186307322005610562" at="63,23,64,18" concept="1" />
+      <node id="4186307322005610564" at="64,18,65,17" concept="1" />
+      <node id="4186307322005610558" at="65,17,66,36" concept="1" />
+      <node id="4186307322005610580" at="66,36,67,18" concept="1" />
+      <node id="4186307322005610582" at="67,18,68,17" concept="1" />
+      <node id="4186307322005610575" at="68,17,69,86" concept="1" />
+      <node id="4341285193749178523" at="69,86,70,20" concept="1" />
+      <node id="4186307322005610584" at="70,20,71,18" concept="1" />
+      <node id="4186307322005610586" at="71,18,72,17" concept="1" />
+      <node id="4186307322005610589" at="72,17,73,34" concept="1" />
+      <node id="4186307322005610611" at="73,34,74,18" concept="1" />
+      <node id="4186307322005610613" at="74,18,75,17" concept="1" />
+      <node id="4186307322005610606" at="75,17,76,86" concept="1" />
+      <node id="4186307322005610624" at="76,86,77,18" concept="1" />
+      <node id="4186307322005610626" at="77,18,78,17" concept="1" />
+      <node id="4186307322005610658" at="79,121,80,20" concept="1" />
+      <node id="4186307322005610660" at="80,20,81,19" concept="1" />
+      <node id="4186307322005610653" at="81,19,82,30" concept="1" />
+      <node id="4186307322005610666" at="83,62,84,25" concept="1" />
+      <node id="4341285193748705339" at="86,5,87,18" concept="1" />
+      <node id="4341285193748705627" at="87,18,88,20" concept="1" />
+      <node id="4186307322005610385" at="92,0,93,0" concept="7" trace="name$MnvL" />
+      <node id="4186307322005610385" at="96,0,97,0" concept="7" trace="lessors$FkIp" />
+      <node id="4186307322005610385" at="97,0,98,0" concept="7" trace="lessees$s2MP" />
+      <node id="4186307322005610385" at="98,0,99,0" concept="7" trace="rentalUnit$8E3l" />
+      <node id="4186307322005610385" at="99,0,100,0" concept="7" trace="term$DdDp" />
+      <node id="4186307322005610385" at="100,0,101,0" concept="7" trace="rent$tepR" />
+      <node id="4186307322005610385" at="101,0,102,0" concept="7" trace="deposit$ln6U" />
+      <node id="4186307322005610463" at="34,30,37,7" concept="3" />
+      <node id="4186307322005610509" at="48,30,51,7" concept="3" />
+      <node id="4186307322005610674" at="82,30,85,7" concept="3" />
+      <node id="4186307322005610465" at="30,18,38,5" concept="2" />
+      <node id="4186307322005610511" at="44,18,52,5" concept="2" />
+      <node id="4186307322005610676" at="78,17,86,5" concept="2" />
+      <node id="4186307322005610385" at="18,0,90,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="4186307322005610462" at="35,62,36,25" />
+      <scope id="4186307322005610508" at="49,62,50,25" />
+      <scope id="4186307322005610673" at="83,62,84,25" />
+      <scope id="4186307322005610464" at="31,121,37,7" />
+      <scope id="4186307322005610510" at="45,121,51,7" />
+      <scope id="4186307322005610675" at="79,121,85,7" />
+      <scope id="4186307322005610465" at="30,18,38,5">
+        <var name="elem_11" id="4186307322005610440" />
+      </scope>
+      <scope id="4186307322005610511" at="44,18,52,5">
+        <var name="elem_12" id="4186307322005610486" />
+      </scope>
+      <scope id="4186307322005610676" at="78,17,86,5">
+        <var name="elem_13" id="4186307322005610651" />
+      </scope>
+      <scope id="4186307322005610385" at="19,54,88,20">
+        <var name="tgs" id="4186307322005610385" />
+      </scope>
+      <scope id="4186307322005610385" at="18,0,90,0">
+        <var name="ctx" id="4186307322005610385" />
+      </scope>
+      <unit id="4186307322005610385" at="91,0,94,0" name="LangAliceGen.textGen.LeaseForm_TextGen$PROPS" />
+      <unit id="4186307322005610385" at="95,0,103,0" name="LangAliceGen.textGen.LeaseForm_TextGen$LINKS" />
+      <unit id="4186307322005610385" at="17,0,104,0" name="LangAliceGen.textGen.LeaseForm_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="4186307322005610385" at="42,43,43,39" concept="6" />
+      <node id="4186307322005610385" at="95,60,96,51" concept="5" />
+      <node id="4186307322005610385" at="96,51,97,54" concept="5" />
+      <node id="4186307322005610385" at="97,54,98,84" concept="1" />
+      <node id="4186307322005610385" at="98,84,99,17" concept="0" />
+      <node id="4186307322005610385" at="112,59,113,26" concept="6" />
+      <node id="4186307322005610682" at="124,64,125,18" concept="6" />
+      <node id="4186307322005610385" at="112,0,115,0" concept="8" trace="getFileName_LeaseForm#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4186307322005610385" at="124,0,127,0" concept="8" trace="getFileExtension_LeaseForm#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="4186307322005610385" at="94,7,100,7" concept="3" />
+      <scope id="4186307322005610385" at="42,43,43,39" />
+      <scope id="4186307322005610385" at="112,59,113,26" />
+      <scope id="4186307322005610385" at="124,64,125,18" />
+      <scope id="4186307322005610385" at="112,0,115,0">
+        <var name="node" id="4186307322005610385" />
+      </scope>
+      <scope id="4186307322005610385" at="124,0,127,0">
+        <var name="node" id="4186307322005610385" />
+      </scope>
+      <scope id="4186307322005610385" at="95,60,99,17">
+        <var name="ext" id="4186307322005610385" />
+        <var name="fname" id="4186307322005610385" />
+      </scope>
+    </file>
+  </root>
+</debug-info>
+

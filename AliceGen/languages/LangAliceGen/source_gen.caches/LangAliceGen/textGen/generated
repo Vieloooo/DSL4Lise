@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-4fzr83sdh5ky9d2dlfjmkdj6so3e23i">
+  <files names="Accessory_TextGen.java:ApplicanceAndFruniture_TextGen.java:BaseRent_TextGen.java:DepositDueDate_TextGen.java:Email_TextGen.java:Fax_TextGen.java:FixedTerm_TextGen.java:KeyDeposit_TextGen.java:LeaseForm_TextGen.java:Lessee_TextGen.java:Lessor_TextGen.java:OtherFee_TextGen.java:PaymentMethod_TextGen.java:PeriodicTerm_TextGen.java:PetDamageDeposit_TextGen.java:Phone_TextGen.java:RentDeposit_TextGen.java:Rent_TextGen.java:RentalUnitType_TextGen.java:RentalUnit_TextGen.java:SecurityDeposit_TextGen.java:ServiceCovered_TextGen.java:TextGenAspectDescriptor.java" />
+</product>
+
