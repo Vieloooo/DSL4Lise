@@ -1,0 +1,55 @@
+{
+  "LeaseTitle": "Test lease ",
+  "Lessors": [
+    {
+      "FirstName": "Changpeng",
+      "LastName": "Zhao",
+      "Address": "Singapore",
+      "Emails": ["cz@binance.com"],
+      "PhoneNumbers": ["(123)333-4444"],
+      "FaxNumbers": ["44444"]
+    },
+    {
+      "FirstName": "Yi",
+      "LastName": "He",
+      "Address": "Taiwan",
+      "Emails": ["YH@bb.com", "sss@ff", "rrr@ss"],
+      "PhoneNumbers": ["(123)333-4444"],
+      "FaxNumbers": ["3356-4466"]
+    }
+  ],
+  "Lessees": [
+    {
+      "FirstName": "Sam",
+      "LastName": "Bankman Fried",
+      "Emails": ["SBF@FTX.com"],
+      "PhoneNumbers": ["(123)333-4422", "(333)333-4444"]
+    }
+  ],
+  "RentalUnit": {
+    "Address": "4185 Blvd Catherine, Montreal, QC",
+    "UnitType": "condo",
+    "ApplicanceAndFurnitures": ["chairs", "fridge", "oven"],
+    "Accessories": ["1 locker", "2 parking spaces"]
+  },
+
+  "PeriodicTerm": { "StartDate": "2022-10-22", "LeasingPeriod": "Weekly" },
+  "RentDetail": {
+    "Baserent": "1000",
+    "OtherFees": [
+      { "FeeName": "Gas fee", "Amount": "100" },
+      { "FeeName": "Service fee", "Amount": "200" }
+    ],
+    "TotalRent": "1300",
+    "ExactDate": "1",
+    "PaymentPeriod": "Bi-weekly",
+    "PaymentMethods": ["cash", "cheque"],
+    "ServicesCovered": ["gas", "heat", "water"]
+  },
+
+  "KeyDeposit": { "DepositAmount": "10", "DepositPaymentDue": "2022-11-15" },
+  "SecurityDeposit": {
+    "DepositAmount": "1300",
+    "DepositPaymentDue": "2022-11-15"
+  }
+}

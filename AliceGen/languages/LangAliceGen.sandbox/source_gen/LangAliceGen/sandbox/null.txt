@@ -1,7 +1,0 @@
-{
-    "FirstName": "DAvid", "LastName": "arod",
-    "Address" : "monkey hill 448B",
-    "Emails": [  "test@gmail.com", "test2@google.com", ],
-    "PhoneNumbers": [ "(123)333-4444",],
-    "FaxNumbers": [  "ssss", "2342356",],
-},

@@ -13,7 +13,6 @@ public class FixedTerm_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append("{");
     tgs.newLine();
     tgs.append("\"FixedTerm\":{ ");
     tgs.append(" ");
@@ -25,8 +24,6 @@ public class FixedTerm_TextGen extends TextGenDescriptorBase {
     tgs.append(" \"");
     tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.EndDate$smpK));
     tgs.append("\" }");
-    tgs.newLine();
-    tgs.append("}");
   }
 
   private static final class PROPS {

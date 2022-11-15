@@ -37,6 +37,7 @@ public class Rent_TextGen extends TextGenDescriptorBase {
       tgs.appendNode(elem_8);
       if ((SNodeOperations.getNextSibling(elem_8) != null)) {
         tgs.append(", ");
+        tgs.newLine();
       }
     }
     tgs.newLine();

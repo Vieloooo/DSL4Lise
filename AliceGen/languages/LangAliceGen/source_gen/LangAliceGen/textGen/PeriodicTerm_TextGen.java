@@ -14,7 +14,6 @@ public class PeriodicTerm_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append("{");
     tgs.newLine();
     tgs.append("\"PeriodicTerm\":{ ");
     tgs.append(" ");
@@ -26,8 +25,6 @@ public class PeriodicTerm_TextGen extends TextGenDescriptorBase {
     tgs.append(" \"");
     tgs.append(SEnumOperations.getMemberPresentation(SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.LeasingPeriod$SEFQ)));
     tgs.append("\" }");
-    tgs.newLine();
-    tgs.append("}");
   }
 
   private static final class PROPS {

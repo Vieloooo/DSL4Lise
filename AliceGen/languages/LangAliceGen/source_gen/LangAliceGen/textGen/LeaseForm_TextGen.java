@@ -63,9 +63,6 @@ public class LeaseForm_TextGen extends TextGenDescriptorBase {
     tgs.append("    ");
     tgs.newLine();
     tgs.indent();
-    tgs.append("\"Leasing Term\":");
-    tgs.newLine();
-    tgs.indent();
     tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.term$DdDp));
     tgs.append(",");
     tgs.newLine();

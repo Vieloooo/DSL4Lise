@@ -10,6 +10,6 @@ AliceGen is a lease generation framework based on the Core ontology of rental le
 - LangAliceGen: the language behind AliceGen. This language is the DSL targets the rental leasing domain, which provides the based syntax to create a new rental lease. 
 - LangAliceGen.sandbox: A interface for users to generate and export rental leases. This provides two main functions: 
     - A dynamic form to create new lease forms. 
-    - An text generator which convert rental lease instances to Json files. 
+    - An text generator which can serialize rental lease instances to Json files. 
 
 ## AliceVerify
