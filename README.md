@@ -39,7 +39,7 @@ AliceVerify is a DSL interface for users to generate Java code which can be used
       - ![Blank form](assets/alicegen_blank_form.png)
     - Filled form:
       - ![Filled form](assets/Alice_gen_filled_form.png)
-- After finish building the lease,  we can export our new-built lease to json using the Text Generator provided by LangAliceGen. 
+- After building the lease,  we can export our new-built leases to json files using the Text Generator provided by LangAliceGen. 
   - Json file: ![alt](assets/json.png)
 - Move to the AliceVerify, lets write some constraints for our new-built leases: We can choose 4 types of rules and construct them freely. 
   - ![alt](assets/Screenshot%20from%202022-11-16%2023-07-51.png)
