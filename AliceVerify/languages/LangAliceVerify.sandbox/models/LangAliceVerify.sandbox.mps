@@ -60,8 +60,8 @@
       </node>
     </node>
     <node concept="2mQW_s" id="5MqbWZaiuGo" role="2mQdKZ">
-      <property role="2mQWgT" value="12" />
-      <property role="2mRdYw" value="The emails' format of lessors is wrong " />
+      <property role="2mQWgT" value="^(.+)@(.+)$" />
+      <property role="2mRdYw" value="This email's format of lessors is wrong " />
       <node concept="2mQh$g" id="5MqbWZaiuGq" role="2mRdOH">
         <property role="TrG5h" value="lessors" />
       </node>

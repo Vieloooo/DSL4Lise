@@ -956,7 +956,7 @@
             <uo k="s:originTrace" v="n:6672698367401234828" />
           </node>
           <node concept="Xl_RD" id="4$" role="37wK5m">
-            <property role="Xl_RC" value="==" />
+            <property role="Xl_RC" value="MustHave" />
             <uo k="s:originTrace" v="n:6672698367401234828" />
           </node>
           <node concept="1adDum" id="4_" role="37wK5m">
@@ -991,7 +991,7 @@
             <uo k="s:originTrace" v="n:6672698367401234828" />
           </node>
           <node concept="Xl_RD" id="4G" role="37wK5m">
-            <property role="Xl_RC" value="!=" />
+            <property role="Xl_RC" value="MustNotHave" />
             <uo k="s:originTrace" v="n:6672698367401234828" />
           </node>
           <node concept="1adDum" id="4H" role="37wK5m">
