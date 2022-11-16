@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-2arwysatowhbt4dekow6u8i6pj3ly1c" />
+<product version="3" modelHash="-4v8ol3mreq0sjhp7o4p4jqnda8pjdbo">
+  <files names="EditorAspectDescriptorImpl.java:ObjRef_Editor.java:ObjRef_EditorBuilder_a.java:ObjRef_SubstituteMenu.java:Obj_Editor.java:Obj_EditorBuilder_a.java:ObjectRule_Editor.java:ObjectRule_EditorBuilder_a.java:RegexRule_Editor.java:RegexRule_EditorBuilder_a.java:RentSumRule_Editor.java:RentSumRule_EditorBuilder_a.java:RuleLists_Editor.java:RuleLists_EditorBuilder_a.java:ValueRule_Editor.java:ValueRule_EditorBuilder_a.java" />
+</product>
 

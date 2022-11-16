@@ -214,7 +214,7 @@
   <node concept="1TIwiD" id="2TI8xu6M7Zh">
     <property role="EcuMT" value="3345649057623736273" />
     <property role="TrG5h" value="Fax" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2TI8xu6M82W" role="1TKVEl">
       <property role="IQ2nx" value="3345649057623736508" />
       <property role="TrG5h" value="FaxNumber" />
@@ -225,7 +225,7 @@
     <property role="EcuMT" value="3345649057623751181" />
     <property role="TrG5h" value="RentalUnit" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2TI8xu6Mc0C" role="1TKVEl">
       <property role="IQ2nx" value="3345649057623752744" />
       <property role="TrG5h" value="Address" />
@@ -258,7 +258,7 @@
   <node concept="1TIwiD" id="2TI8xu6MdqI">
     <property role="EcuMT" value="3345649057623758510" />
     <property role="TrG5h" value="ApplicanceAndFruniture" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2TI8xu6MfnY" role="1TKVEl">
       <property role="IQ2nx" value="3345649057623766526" />
       <property role="TrG5h" value="ApplicanceName" />
@@ -268,7 +268,7 @@
   <node concept="1TIwiD" id="2TI8xu6MdY6">
     <property role="EcuMT" value="3345649057623760774" />
     <property role="TrG5h" value="RentalUnitType" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2TI8xu6Me7t" role="1TKVEl">
       <property role="IQ2nx" value="3345649057623761373" />
       <property role="TrG5h" value="type" />
@@ -278,7 +278,7 @@
   <node concept="1TIwiD" id="2TI8xu6MgFn">
     <property role="EcuMT" value="3345649057623771863" />
     <property role="TrG5h" value="Accessory" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2TI8xu6MgP$" role="1TKVEl">
       <property role="IQ2nx" value="3345649057623772516" />
       <property role="TrG5h" value="AccessoryName" />
@@ -289,7 +289,7 @@
     <property role="EcuMT" value="3345649057623775385" />
     <property role="TrG5h" value="Term" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2TI8xu6MhBG" role="1TKVEl">
       <property role="IQ2nx" value="3345649057623775724" />
       <property role="TrG5h" value="StartDate" />
@@ -351,7 +351,7 @@
     <property role="EcuMT" value="3345649057623850508" />
     <property role="TrG5h" value="Rent" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2TI8xu6MzZy" role="1TKVEl">
       <property role="IQ2nx" value="3345649057623850978" />
       <property role="TrG5h" value="TotalRent" />
@@ -401,7 +401,7 @@
   <node concept="1TIwiD" id="2TI8xu6M_2q">
     <property role="EcuMT" value="3345649057623855258" />
     <property role="TrG5h" value="BaseRent" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2TI8xu6M_8V" role="1TKVEl">
       <property role="IQ2nx" value="3345649057623855675" />
       <property role="TrG5h" value="Amount" />
@@ -411,7 +411,7 @@
   <node concept="1TIwiD" id="2TI8xu6M_Du">
     <property role="EcuMT" value="3345649057623857758" />
     <property role="TrG5h" value="PaymentMethod" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2TI8xu6M_ND" role="1TKVEl">
       <property role="IQ2nx" value="3345649057623858409" />
       <property role="TrG5h" value="MethodName" />
@@ -421,7 +421,7 @@
   <node concept="1TIwiD" id="2TI8xu6MADJ">
     <property role="EcuMT" value="3345649057623861871" />
     <property role="TrG5h" value="ServiceCovered" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2TI8xu6MANw" role="1TKVEl">
       <property role="IQ2nx" value="3345649057623862496" />
       <property role="TrG5h" value="serviceName" />
@@ -431,7 +431,7 @@
   <node concept="1TIwiD" id="2TI8xu6MC74">
     <property role="EcuMT" value="3345649057623867844" />
     <property role="TrG5h" value="OtherFee" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2TI8xu6MCgQ" role="1TKVEl">
       <property role="IQ2nx" value="3345649057623868470" />
       <property role="TrG5h" value="FeeName" />
@@ -447,7 +447,7 @@
     <property role="EcuMT" value="3345649057623871753" />
     <property role="TrG5h" value="Deposit" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2TI8xu6MDbS" role="1TKVEl">
       <property role="IQ2nx" value="3345649057623872248" />
       <property role="TrG5h" value="Amount" />
@@ -463,7 +463,7 @@
   <node concept="1TIwiD" id="2TI8xu6MDIu">
     <property role="EcuMT" value="3345649057623874462" />
     <property role="TrG5h" value="DepositDueDate" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2TI8xu6ME0L" role="1TKVEl">
       <property role="IQ2nx" value="3345649057623875633" />
       <property role="TrG5h" value="DueDate" />

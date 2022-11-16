@@ -47,9 +47,9 @@
     "ServicesCovered": ["gas", "heat", "water"]
   },
 
-  "KeyDeposit": { "DepositAmount": "10", "DepositPaymentDue": "2022-11-15" },
+
   "SecurityDeposit": {
-    "DepositAmount": "1300",
+    "DepositAmount": "13000",
     "DepositPaymentDue": "2022-11-15"
   }
 }
